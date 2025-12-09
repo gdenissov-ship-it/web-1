@@ -49,4 +49,4 @@
 ---
 
 ## Ссылка на опубликованную страницу
-[https://<твой-ник>.github.io/my-landing/](https://<твой-ник>.github.io/my-landing/)
+https://gdenissov-ship-it.github.io/web-1/
