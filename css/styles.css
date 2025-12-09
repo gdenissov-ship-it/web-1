@@ -1,0 +1,216 @@
+/* Box-sizing и базовые стили */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #0073e6;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+/* Navigation */
+nav {
+  margin-top: 15px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #ffd700;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* Main sections */
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 60px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Section headings */
+h2 {
+  color: #0073e6;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 20px;
+}
+
+dl {
+  margin-left: 20px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #0073e6;
+  color: #fff;
+  text-align: left;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Aside */
+aside {
+  background-color: #e8f0fe;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color: #0073e6;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #0073e6;
+  outline-offset: 2px;
+}
+
+/* Button */
+button {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover,
+button:focus {
+  background-color: #005bb5;
+  outline: 2px solid #333;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer h2 {
+  color: #ffd700;
+}
+
+footer p {
+  margin: 5px 0;
+}

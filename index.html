@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<title>IT Solutions Company</title>
+</head>
+<body>
+
+<header>
+  <h1>IT Solutions Company</h1>
+  <nav>
+    <ul>
+      <li><a href="#about">О нас</a></li>
+      <li><a href="#services">Услуги</a></li>
+      <li><a href="#team">Команда</a></li>
+      <li><a href="#contact">Контакты</a></li>
+      <li><a href="#footer">Подвал</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="about">
+    <h2>О компании</h2>
+    <p>Мы предоставляем лучшие IT-решения для бизнеса и частных клиентов.</p>
+    <figure>
+      <img src="img/img1.jpg" alt="Офис компании" width="600" height="400">
+      <figcaption>Наш современный офис</figcaption>
+    </figure>
+    <img src="img/img2.png" alt="Рабочее место" width="600" height="400">
+  </section>
+
+  <section id="services">
+    <h2>Наши услуги</h2>
+    <ul>
+      <li>Разработка программного обеспечения</li>
+      <li>Веб-дизайн и UX/UI</li>
+      <li>IT-консалтинг</li>
+    </ul>
+    <table>
+      <caption>Стоимость основных услуг</caption>
+      <thead>
+        <tr>
+          <th scope="col">Услуга</th>
+          <th scope="col">Цена (₸)</th>
+          <th scope="col">Срок</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Разработка ПО</th>
+          <td>500000</td>
+          <td>3 мес</td>
+        </tr>
+        <tr>
+          <th scope="row">Веб-дизайн</th>
+          <td>250000</td>
+          <td>1 мес</td>
+        </tr>
+        <tr>
+          <th scope="row">IT-консалтинг</th>
+          <td>150000</td>
+          <td>2 недели</td>
+        </tr>
+      </tbody>
+    </table>
+    <img src="img/img3.jpg" alt="IT оборудование" width="600" height="400">
+  </section>
+
+  <section id="team">
+    <h2>Наша команда</h2>
+    <ol>
+      <li>"Алибек - Айти программист"</li>
+      <li>Эмиль - Хороший бэкэндер </li>
+      <li>Александр - неплохой сетевик</li>
+      <li>Глеб - ДЭВопсер</li>
+      <li>Кирил - лучший фронтендер</li>
+    </ol>
+    <img src="img/img4.jpg" alt="Команда сотрудников" width="600" height="400">
+  </section>
+
+  <aside>
+    <h2>Отзывы клиентов</h2>
+    <dl>
+      <dt>KASPI KZ</dt>
+      <dd>“Отличная работа, быстро и качественно!”</dd>
+      <dt>CISCO COMPANY</dt>
+      <dd>“Рекомендую IT Solutions для любых проектов.”</dd>
+    </dl>
+    <img src="img/img5.png" alt="Клиентская встреча" width="600" height="400">
+  </aside>
+
+  <section id="contact">
+    <h2>Связаться с нами</h2>
+    <form method="post" action="#">
+      <fieldset>
+        <legend>Личные данные</legend>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" pattern="[\d\+\-\s\(\)]{6,}">
+      </fieldset>
+
+      <fieldset>
+        <legend>Сообщение</legend>
+        <label for="qty">Количество:</label>
+        <input type="number" id="qty" name="qty" min="1" max="20" required>
+        <label for="message">Комментарий:</label>
+        <textarea id="message" name="message" minlength="10"></textarea>
+      </fieldset>
+
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+</main>
+
+<footer id="footer">
+  <h2>Контакты</h2>
+  <p>Телефон:  8 800 555 35 35</p>
+  <p>Email: davaipoka@nepishisuda.com</p>
+</footer>
+
+</body>
+</html>
